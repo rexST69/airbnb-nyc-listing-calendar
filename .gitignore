@@ -1,0 +1,26 @@
+# Raw and generated data
+data/raw/
+data/processed/
+*.csv
+*.csv.gz
+*.parquet
+*.docx
+
+# Build and runtime output
+target/
+project/target/
+*.jar
+*.log
+.metals/
+.bsp/
+.idea/
+
+# Local environment and credentials
+.env
+.env.*
+*.pem
+*.key
+
+# OS/editor files
+.DS_Store
+.vscode/settings.json
